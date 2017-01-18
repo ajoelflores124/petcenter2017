@@ -120,6 +120,7 @@
     <Compile Include="Controllers\CartillaAtencionController.cs" />
     <Compile Include="Controllers\DbUpdateConcurrencyException.cs" />
     <Compile Include="Controllers\EmpleadoController.cs" />
+    <Compile Include="Controllers\SolicitudManteController.cs" />
     <Compile Include="Controllers\TipoExamenController.cs" />
     <Compile Include="Controllers\UsuarioController.cs" />
     <Compile Include="Global.asax.cs">
@@ -235,6 +236,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Usuario\Login.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\SolicitudMante\Adicionar.cshtml" />
+    <Content Include="Views\SolicitudMante\Index.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
