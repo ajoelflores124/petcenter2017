@@ -241,6 +241,9 @@
     <Content Include="Views\SolicitudMante\Adicionar.cshtml" />
     <Content Include="Views\SolicitudMante\Index.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\AprobarSolicitud\Index.cshtml" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
